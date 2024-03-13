@@ -1,0 +1,99 @@
+body
+  {
+    background-size: cover;
+  }
+
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .note
+  {
+    font-size: 15px;
+    color: black;
+  }
+
+  .div_speed
+  {
+    float: right;
+    width: 130px;
+  }
+
+  .div_speed_img
+  {
+    width: 200px;
+    border-radius: 100px;
+  }
+
+  #speed
+  {
+    width: 90px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-size: 23px;
+    margin: 15px;
+    float: right;
+  }
+
+  .div_volume
+  {
+    float: left;
+  }
+
+  .div_volume_img
+  {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+  }
+
+  #volume
+  {
+    width: 130px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-size: 23px;
+    margin: 15px;
+  }
+
+  #DJ
+  {
+    float: none;
+  }
+
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.play_button:hover
+{
+    background-color: lightgreen;
+    border-color: black;
+    text-transform: uppercase;
+}
+
+.play_button:active
+{
+    background-color: rgb(38, 253, 38);
+    border-color: grey;
+    cursor: pointer;
+}
+
+canvas
+{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px cyan;
+}
+
+canvas:hover
+{
+    box-shadow: 10px 10px 10px darkblue;
+}
